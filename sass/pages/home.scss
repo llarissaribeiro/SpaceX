@@ -1,0 +1,71 @@
+.container00{
+  &.container01{
+    background-image: url(../../images/home/home/01.jpg);
+  }
+  &.container02{
+    background-image: url(../../images/home/home/03.jpg);
+  }
+  &.container03{
+    background-image: url(../../images/home/home/02.gif);
+  }
+  &.container04{
+    background-image: url(../../images/home/home/04.jpg);
+  }
+}
+
+.titlePadding{
+  padding-top: 200px;
+  text-transform: uppercase;
+}
+
+.shortTitle{
+  width: 550px;
+}
+
+.mediumTitle{
+  width: 650px;
+}
+
+@media(max-width:750px){
+  .titlePadding{
+    padding-top: 120px;
+    font-size: 50px;
+  }
+
+  #launchComing{
+    font-size: 22px;
+  }
+
+  .shortTitle, .mediumTitle{
+    width: auto;
+    font-size: 50px;
+  }
+
+  #button{
+    padding: 10px 16px;
+    font-size: 16px;
+  }
+}
+
+@media(max-width:380px){
+  .titlePadding{
+    padding-top: 120px;
+    font-size: 30px;
+  }
+
+  .shortTitle, .mediumTitle{
+    width: auto;
+    font-size: 30px;
+  }
+
+  #launchComing{
+    font-size: 12px;
+  }
+
+  #button{
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+}
+

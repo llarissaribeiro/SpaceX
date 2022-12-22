@@ -1,0 +1,93 @@
+.header{
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 5px;
+  font-family: Rubik;
+
+  #navItem{
+    text-transform: uppercase;
+
+
+    &:hover{
+      color: $link-hover;
+    }
+  }
+}
+
+.container00{
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown{
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logoOBC{
+  width: 240px;
+  margin-right: 40px;
+  margin-left: -10px;
+}
+
+#button{
+  padding: $padding-button;
+  text-transform: uppercase;
+  border: 2px solid;
+}
+
+.footer{
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  a{
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+      color: $link-hover;
+    }
+  }
+
+  .copyLarissa{
+    color: $copy-color;
+  }
+
+}
+
+/* media query */
+
+@media(max-width:405px){
+  .logoOBC{
+    width: 180px;
+    margin-top: 15px;
+  }
+
+  .footer{
+    font-size: 10px;
+  }
+}
+
+@media(max-width:395px){
+  .downloadDesc{
+    button{
+      margin: 10px 0px;
+
+    }
+  }
+}
+
+@media(max-width:350px){
+  .logoOBC{
+    width: 150px;
+    margin-top: 15px;
+  }
+}

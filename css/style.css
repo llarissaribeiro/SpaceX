@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 5px;
+  font-family: Rubik;
+}
+.header #navItem {
+  text-transform: uppercase;
+}
+.header #navItem:hover {
+  color: #b9b9b9;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logoOBC {
+  width: 240px;
+  margin-right: 40px;
+  margin-left: -10px;
+}
+
+#button {
+  padding: 15px 35px;
+  text-transform: uppercase;
+  border: 2px solid;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copyLarissa {
+  color: #555252;
+}
+
+/* media query */
+@media (max-width: 405px) {
+  .logoOBC {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 395px) {
+  .downloadDesc button {
+    margin: 10px 0px;
+  }
+}
+@media (max-width: 350px) {
+  .logoOBC {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.container00.container01 {
+  background-image: url(../../images/home/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(../../images/home/home/03.jpg);
+}
+.container00.container03 {
+  background-image: url(../../images/home/home/02.gif);
+}
+.container00.container04 {
+  background-image: url(../../images/home/home/04.jpg);
+}
+
+.titlePadding {
+  padding-top: 200px;
+  text-transform: uppercase;
+}
+
+.shortTitle {
+  width: 550px;
+}
+
+.mediumTitle {
+  width: 650px;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+    font-size: 50px;
+  }
+  #launchComing {
+    font-size: 22px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+  #button {
+    padding: 10px 16px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 380px) {
+  .titlePadding {
+    padding-top: 120px;
+    font-size: 30px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 30px;
+  }
+  #launchComing {
+    font-size: 12px;
+  }
+  #button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+.container00.container05 {
+  background-image: url(../../images/falcon9/falcon9/01.jpg);
+}
+.container00.container06 {
+  background-image: url(../../images/falcon9/falcon9/02.jpg);
+}
+.container00.carrossel01 {
+  background-image: url(../../images/falcon9/falcon9/03.jpg);
+}
+.container00.carrossel02 {
+  background-image: url(../../images/falcon9/falcon9/04.jpg);
+}
+.container00.carrossel03 {
+  background-image: url(../../images/falcon9/falcon9/05.jpg);
+}
+.container00.carrossel04 {
+  background-image: url(../../images/falcon9/falcon9/06.jpg);
+}
+.container00.carrossel05 {
+  background-image: url(../../images/falcon9/falcon9/07.jpg);
+}
+.container00.carrossel06 {
+  background-image: url(../../images/falcon9/falcon9/03.jpg);
+}
+.container00.container07 {
+  background-image: url(../../images/falcon9/falcon9/08.jpg);
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+}
+
+.titleFalcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  font-weight: 514;
+  text-shadow: 2px 2px 15px black;
+}
+
+.subtitleFacon9 {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px black;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleNumb {
+  font-size: 90px;
+}
+
+.subtitleNumb {
+  font-size: 20px;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+.falcon9Desc {
+  font-size: 22px;
+  width: 620px;
+  text-align: justify;
+  line-height: 35px;
+}
+
+#overviewPosition {
+  width: 460px;
+  margin-left: 13%;
+  padding-top: 15%;
+  text-align: justify;
+}
+
+.subtitleOverview {
+  text-transform: uppercase;
+}
+
+.titleOverview {
+  font-family: "Rubik";
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+.carrosselSlide .carrosselText {
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+
+.button {
+  border: 2px solid white;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .titleFalcon9 {
+    text-shadow: 2px 2px 10px black;
+  }
+  .subtitleFacon9 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px black;
+  }
+  .titleNumb {
+    font-size: 80px;
+  }
+  .suntitleNumb {
+    font-size: 18px;
+  }
+  .falcon9Desc {
+    font-size: 16px;
+    width: 380px;
+    line-height: 22px;
+  }
+  #overviewPosition {
+    padding-top: 35%;
+  }
+  .carrosselText {
+    width: auto;
+    height: auto;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+  #overviewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+  .falcon9Desc {
+    font-size: 16px;
+    width: auto;
+  }
+}
+@media (max-width: 460px) {
+  .titleFalcon9 {
+    font-size: 70px;
+  }
+}
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+  .subtitleFacon9 {
+    font-size: 15px;
+  }
+}
+.container00.container08 {
+  background-image: url(../../images/humanFlight/humanFlight/01.jpg);
+}
+.container00.container09 {
+  background-image: url(../../images/humanFlight/humanFlight/02.jpg);
+}
+.container00.container10 {
+  background-image: url(../../images/humanFlight/humanFlight/03.jpg);
+}
+.container00.container11 {
+  background-image: url(../../images/humanFlight/humanFlight/04.jpg);
+}
+.container00.container12 {
+  background-image: url(../../images/humanFlight/humanFlight/05.jpg);
+}
+
+#navHuman {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 500;
+}
+#navHuman:hover {
+  color: #b9b9b9;
+}
+
+.container01Content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content .titleHuman {
+  font-size: 120px;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 15px black;
+}
+.container01Content .subtitleHuman {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 6px black;
+}
+
+.earthDesc {
+  background-color: black;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textEarthDesc {
+  color: #d8d8d8;
+  font-size: 22px;
+  font-weight: 400;
+  width: 800px;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+  text-transform: uppercase;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subtitleSection {
+  font-weight: 480;
+  text-transform: uppercase;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+.btnExplorer {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 780px) {
+  .container01Content .titleHuman {
+    font-size: 90px;
+  }
+  .container01Content img {
+    width: 150px;
+  }
+  .container01Content .subtitleHuman {
+    font-size: 28px;
+  }
+  .containerRightContent {
+    margin-left: 15%;
+  }
+  .containerLeftContent {
+    margin-left: 15%;
+  }
+  .earthDesc .textEarthDesc {
+    font-size: 18px;
+    width: auto;
+  }
+}
+@media (max-width: 610px) {
+  .container01Content .titleHuman {
+    font-size: 60px;
+  }
+  .container01Content .subtitleHuman {
+    font-size: 24px;
+  }
+  .containerRightContent {
+    margin-left: 5%;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+  .titleSection {
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .container01Content .titleHuman {
+    font-size: 45px;
+  }
+  .container01Content img {
+    width: 100px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
